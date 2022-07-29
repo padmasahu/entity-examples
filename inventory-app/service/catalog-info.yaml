@@ -2,7 +2,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: counter-app
+  name: inventory-app
   description: Counter Application for managing counters
 spec:
   owner: group:guests

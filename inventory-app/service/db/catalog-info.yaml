@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
-  name: counter-db
+  name: inventory-db
   description: Counter service database
   tags:
     - mongodb
@@ -10,4 +10,4 @@ spec:
   type: database
   lifecycle: experimental
   owner: group:guests
-  system: counter-app
+  system: inventory-app

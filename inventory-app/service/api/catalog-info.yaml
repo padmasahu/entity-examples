@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: counter-api
+  name: inventory-api
   description: API for counter-service
   links:
    - url: http://localhost:8080/swagger-ui.html
@@ -12,7 +12,7 @@ spec:
   type: thrift
   lifecycle: production
   owner: group:guests
-  system: counter-app
+  system: inventory-app
   definition: |
     openapi: 3.0.1
     info:
